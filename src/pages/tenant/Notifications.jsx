@@ -4,7 +4,7 @@ import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 import { Button } from '../../components/ui/Button';
 
-// Improved notification center with categories - Day 3
+// Improved notification center with filters - Day 3// Improved notification center with categories - Day 3
 export function Notifications() {
   const [notifications] = useState([
     {
