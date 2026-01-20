@@ -146,3 +146,8 @@ This project is developed for educational purposes as a college project.
 ## 📬 Contact
 
 For suggestions or contributions, feel free to raise an issue or pull request.
+
+## 🎨 UI / UX Design (Figma)
+Figma Design Link:  
+[https://www.figma.com/file/XXXXXXXX/PGConnect-UI](https://www.figma.com/make/KKG4jRj0YImErJGUtkBmZu/PG-Connect-Website-UI-Design?t=oH1tcFSah7aJSLot-1)
+
