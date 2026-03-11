@@ -1,0 +1,135 @@
+========================================
+START HERE - 3 PERSON DAILY COMMIT GUIDE
+========================================
+
+REPOSITORY: https://github.com/ros-han113/PG-Finder-React
+
+GOAL: 3 people commit 2 files each daily = 6 files per day
+
+========================================
+SETUP (DO THIS ONCE):
+========================================
+
+PERSON 1, 2, 3 - Each person does:
+----------------------------------
+1. Clone repository:
+   git clone https://github.com/ros-han113/PG-Finder-React.git
+   cd PG-Finder-React
+
+2. Set your Git identity:
+   git config user.name "Your Name"
+   git config user.email "your-email@example.com"
+
+3. Open TEAM-DAILY-COMMIT-PLAN.txt
+   Find your assigned files (Person 1, 2, or 3)
+
+========================================
+DAILY ROUTINE (EVERY DAY):
+========================================
+
+STEP 1: Pull Latest Changes
+---------------------------
+git pull origin main
+
+STEP 2: Check Your Assignment
+-----------------------------
+Open: TEAM-DAILY-COMMIT-PLAN.txt
+Find today's 2 files for your person number
+
+STEP 3: Make Changes to File 1
+------------------------------
+- Open first assigned file
+- Add a comment: // Improved feature
+- Or make small code improvement
+- Save file
+
+STEP 4: Commit File 1
+--------------------
+Double-click: git-push-single-file.bat
+Type file path: src/pages/owner/AddPG.jsx
+Type message: Update AddPG page
+Press Enter
+
+STEP 5: Make Changes to File 2
+------------------------------
+- Open second assigned file
+- Add a comment or improvement
+- Save file
+
+STEP 6: Commit File 2
+--------------------
+Double-click: git-push-single-file.bat
+Type file path: src/pages/owner/OwnerDashboard.jsx
+Type message: Update Owner Dashboard
+Press Enter
+
+STEP 7: Verify
+-------------
+Visit: https://github.com/ros-han113/PG-Finder-React
+Check contribution graph - green dot should appear!
+
+========================================
+FILE ASSIGNMENTS:
+========================================
+
+PERSON 1: Owner Pages + PG Components
+- Days 1-14: 2 files per day
+- See TEAM-DAILY-COMMIT-PLAN.txt for details
+
+PERSON 2: Tenant Pages + Utilities
+- Days 1-14: 2 files per day
+- See TEAM-DAILY-COMMIT-PLAN.txt for details
+
+PERSON 3: Admin Pages + Auth Pages
+- Days 1-14: 2 files per day
+- See TEAM-DAILY-COMMIT-PLAN.txt for details
+
+========================================
+IMPORTANT RULES:
+========================================
+
+✓ Always pull before starting: git pull origin main
+✓ Each person commits ONLY their assigned files
+✓ Make real changes (add comments, improve code)
+✓ Commit files ONE AT A TIME using git-push-single-file.bat
+✓ Do this EVERY DAY for 14 days
+✓ Result: 84 total commits, all 3 people show contributions
+
+========================================
+TROUBLESHOOTING:
+========================================
+
+Error: "File has no changes"
+→ You must edit the file before committing
+
+Error: "Push failed"
+→ Run: git pull origin main
+→ Then try push again
+
+Error: "File not found"
+→ Check file path spelling
+→ Use forward slashes: src/pages/owner/AddPG.jsx
+
+========================================
+QUICK REFERENCE:
+========================================
+
+Pull changes:     git pull origin main
+Commit file:      git-push-single-file.bat
+Check status:     git status
+View commits:     https://github.com/ros-han113/PG-Finder-React/commits/main
+
+========================================
+TIMELINE:
+========================================
+
+Day 1: 6 commits (2 per person)
+Day 2: 6 commits
+Day 3: 6 commits
+...
+Day 14: 6 commits
+
+Total: 84 commits over 14 days
+All 3 people will have green contribution graphs!
+
+========================================
