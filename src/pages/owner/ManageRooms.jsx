@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { DoorOpen, Users, DollarSign, Edit, Trash2, Plus, Calendar, CheckCircle, XCircle, Clock } from 'lucide-react';
 
+// Improved room management with availability tracking - Day 2
 export function ManageRooms() {
   const [activeTab, setActiveTab] = useState('all-rooms');
   

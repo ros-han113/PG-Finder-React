@@ -3,7 +3,7 @@ import { Home, Star, Eye, Edit, Trash2, Plus, MapPin } from 'lucide-react';
 import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 
-// Simple Listings Management Page
+// Enhanced listings display with better filtering - Day 2
 export function ListingsPage() {
   // Sample listings data
   const [listings] = useState([
