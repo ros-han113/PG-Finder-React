@@ -172,7 +172,7 @@ Course: **Full Stack Development**
 
 Figma Design Link:
 
-https://www.figma.com/make/KKG4jRj0YImErJGUtkBmZu/PG-Connect-Website-UI-Design
+[https://www.figma.com/make/KKG4jRj0YImErJGUtkBmZu/PG-Connect-Website-UI-Design](https://www.figma.com/design/XLTEpjw46kqqznkK0hyoJJ/PG-Find?node-id=0-1&t=zlUtG0NsOlibD043-1)
 
 ---
 
