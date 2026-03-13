@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Star, ThumbsUp, Eye, Trash2, CheckCircle, XCircle, Flag } from 'lucide-react';
 
+// Enhanced review moderation with filtering - Day 3
 export function Reviews() {
   const [reviews] = useState([
     {
