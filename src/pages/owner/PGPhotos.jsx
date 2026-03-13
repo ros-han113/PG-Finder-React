@@ -3,6 +3,7 @@ import { Upload, Image, Trash2, Eye } from 'lucide-react';
 import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 
+// Improved photo upload system with preview - Day 3
 export function PGPhotos() {
   const [photos] = useState([
     { id: 1, url: 'https://images.unsplash.com/photo-1639751907353-3629fc00d2b2?w=400', category: 'Room', title: 'Single Room' },
