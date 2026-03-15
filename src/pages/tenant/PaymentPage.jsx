@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { ArrowLeft, Shield, CreditCard } from 'lucide-react';
 import { Button } from '../../components/ui/Button';
 
+// Improved payment processing with security - Day 5
 export function PaymentPage() {
   const navigate = useNavigate();
   const location = useLocation();

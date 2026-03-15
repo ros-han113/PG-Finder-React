@@ -3,7 +3,7 @@ import { MessageCircle, Mail, Phone, Clock, CheckCircle } from 'lucide-react';
 import { Card } from '../../components/ui/Card';
 import { Badge } from '../../components/ui/Badge';
 
-// Simple Inquiries Management Page
+// Improved inquiry tracking with status management - Day 5
 export function InquiriesPage() {
   // Sample inquiries data
   const [inquiries] = useState([

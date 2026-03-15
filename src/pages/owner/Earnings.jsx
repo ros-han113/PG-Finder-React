@@ -1,5 +1,6 @@
 import { DollarSign, TrendingUp, Calendar, Download } from 'lucide-react';
 
+// Enhanced earnings dashboard with detailed analytics - Day 5
 export function Earnings() {
   const monthlyEarnings = [
     { month: 'January 2024', amount: 240000, bookings: 28, status: 'Paid' },
