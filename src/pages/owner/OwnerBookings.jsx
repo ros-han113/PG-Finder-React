@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Calendar, User, Home, CheckCircle, XCircle, Clock } from 'lucide-react';
 
+// Enhanced booking management with filters - Day 6
 export function OwnerBookings() {
   const [bookings] = useState([
     { id: 1, tenantName: 'Rahul Kumar', pg: 'Sunrise PG', room: '101', checkIn: '2026-03-01', status: 'confirmed', amount: 12000 },

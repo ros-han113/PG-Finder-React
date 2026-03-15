@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { MessageCircle, CheckCircle, XCircle, Clock, User } from 'lucide-react';
 
+// Improved request handling system - Day 6
 export function OwnerRequests() {
   const [requests, setRequests] = useState([
     { id: 1, name: 'Rahul Kumar', email: 'rahul@email.com', phone: '+91 98765 43210', pg: 'Sunrise PG', roomType: 'Single', moveInDate: '2026-03-15', status: 'pending', submittedDate: '2026-02-08' },
