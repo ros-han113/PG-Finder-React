@@ -2,6 +2,7 @@ import { Card } from '../ui/Card';
 import { Select } from '../ui/Select';
 import { Button } from '../ui/Button';
 
+// Enhanced filter options with more criteria - Day 6
 export function PGFilters({ filters, onChange, onClear }) {
   return (
     <Card>

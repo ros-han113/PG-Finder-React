@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+// Improved gallery with zoom functionality - Day 6
 export function PGGallery({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
