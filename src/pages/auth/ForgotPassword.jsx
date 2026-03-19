@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Mail, ArrowLeft, CheckCircle, Lock } from 'lucide-react';
 
+// Enhanced password recovery flow - Day 7
 export function ForgotPassword() {
   const navigate = useNavigate();
   const [step, setStep] = useState(1); // 1: Email, 2: Success

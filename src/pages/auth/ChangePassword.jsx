@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Lock, Eye, EyeOff, CheckCircle, AlertCircle } from 'lucide-react';
 
+// Enhanced password change with validation - Day 7
 export function ChangePassword() {
   const navigate = useNavigate();
   const [showCurrentPassword, setShowCurrentPassword] = useState(false);
