@@ -3,8 +3,7 @@ import { Mail, Lock, User, Phone, Building2, Eye, EyeOff, Shield, Star, Trending
 import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
 
-
-
+// Enhanced registration with better validation - Day 7
 export function RegisterPage({ onNavigate }) {
   const [userType, setUserType] = useState('tenant');
   const [formData, setFormData] = useState({

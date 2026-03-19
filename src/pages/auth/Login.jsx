@@ -3,6 +3,7 @@ import { Mail, Lock, Building2, Eye, EyeOff, Shield, Users, CheckCircle, ArrowRi
 import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
 
+// Enhanced login with remember me feature - Day 7
 export function LoginPage({ onNavigate, onLogin }) {
   const [showPassword, setShowPassword] = useState(false);
   const [userType, setUserType] = useState('tenant'); // 'tenant' or 'owner'
