@@ -5,7 +5,7 @@ import { Input } from '../../components/ui/Input';
 import { Select } from '../../components/ui/Select';
 import { Card } from '../../components/ui/Card';
 
-export function LandingPage({ onNavigate }) {
+// Enhanced landing page with hero section - Day 8export function LandingPage({ onNavigate }) {
   const [searchLocation, setSearchLocation] = useState('');
   const [budget, setBudget] = useState('');
   const [gender, setGender] = useState('any');

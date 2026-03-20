@@ -7,7 +7,7 @@ import { Input } from '../../components/ui/Input';
 import { Select } from '../../components/ui/Select';
 import { pgListings } from '../../data/mockData';
 
-
+// Enhanced PG listing with map view - Day 8
 
 export function PGListingPage({ onNavigate }) {
   const [showFilters, setShowFilters] = useState(true);
