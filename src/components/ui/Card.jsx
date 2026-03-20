@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Enhanced card component with hover effects - Day 8
 export function Card({ children, className = '', hover = false, onClick }) {
   return (
     <div

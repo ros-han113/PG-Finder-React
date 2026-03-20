@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Enhanced button component with variants - Day 8
 export function Button({ 
   variant = 'primary', 
   size = 'md', 
