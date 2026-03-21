@@ -1,4 +1,4 @@
-// Additional roommate-specific data
+// Enhanced roommate preferences - Day 9
 export const lifestylePreferences = [
   'Early Bird',
   'Night Owl',

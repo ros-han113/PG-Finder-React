@@ -1,3 +1,4 @@
+// Enhanced mock data with more listings - Day 9
 export const pgListings = [
   {
     id: 1,

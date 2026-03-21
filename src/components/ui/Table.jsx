@@ -1,3 +1,4 @@
+// Enhanced table component with sorting - Day 9
 export function Table({ headers, data, renderRow }) {
   return (
     <div style={{ overflowX: 'auto' }}>
