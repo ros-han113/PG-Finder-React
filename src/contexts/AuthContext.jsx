@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AuthContext = createContext(null);
 
+// Enhanced auth context with role-based access - Day 10
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
