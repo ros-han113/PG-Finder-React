@@ -5,7 +5,7 @@ import { Navigation } from './components/layout/Navigation';
 import { AuthenticatedNav } from './components/layout/AuthenticatedNav';
 import { Footer } from './components/layout/Footer';
 
-// Public Pages
+// Enhanced app with lazy loading - Day 10// Public Pages
 import { LandingPage } from './pages/public/Landing';
 import { PGListingPage } from './pages/public/PGListing';
 import { PGDetailsPage } from './pages/public/PGDetails';
