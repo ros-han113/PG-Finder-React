@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, Search, Users, Heart, Calendar, MessageCircle, Bell, User, Menu, X, Building2, LogOut, Settings, HelpCircle } from 'lucide-react';
 import { useAuth } from '../../hooks/useAuth';
 
+// Enhanced authenticated nav with notifications - Day 11
 export function AuthenticatedNav({ userRole = 'tenant' }) {
   const navigate = useNavigate();
   const location = useLocation();
