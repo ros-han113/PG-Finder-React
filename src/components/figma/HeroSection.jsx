@@ -2,6 +2,7 @@ import React from 'react';
 import { Search, MapPin } from 'lucide-react';
 import { Button } from '../ui/Button';
 
+// Enhanced hero section with gradient background - Day 12
 export function HeroSection({ onSearch }) {
   return (
     <section className="relative bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">

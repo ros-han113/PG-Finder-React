@@ -4,7 +4,7 @@ import { Card } from '../ui/Card';
 import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 
-export function PGCardDesign({ pg, onViewDetails }) {
+// Enhanced PG card design from Figma - Day 12export function PGCardDesign({ pg, onViewDetails }) {
   return (
     <Card hover className="overflow-hidden">
       <div className="relative h-48">
