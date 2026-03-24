@@ -4,7 +4,7 @@ import { Card } from '../ui/Card';
 import { Badge } from '../ui/Badge';
 import { Button } from '../ui/Button';
 
-export function RoommateCardDesign({ roommate, onConnect }) {
+// Enhanced roommate card design from Figma - Day 12export function RoommateCardDesign({ roommate, onConnect }) {
   return (
     <Card hover className="overflow-hidden">
       <div className="p-6">
