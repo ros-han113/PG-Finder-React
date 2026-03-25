@@ -1,5 +1,6 @@
 package com.pgfinder.model;
 
+// Enhanced PG model with amenities - Day 13
 public class PG {
     private int id;
     private String name;

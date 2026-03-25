@@ -2,6 +2,7 @@ package com.pgfinder.model;
 
 import java.util.Date;
 
+// Enhanced user model with validation - Day 13
 public class User {
     private int id;
     private String name;

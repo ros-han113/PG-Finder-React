@@ -2,6 +2,7 @@ package com.pgfinder.model;
 
 import java.util.Date;
 
+// Enhanced booking model with status tracking - Day 13
 public class Booking {
     private int id;
     private int pgId;

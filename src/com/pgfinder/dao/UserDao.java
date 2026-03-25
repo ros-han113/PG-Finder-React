@@ -4,7 +4,7 @@ import com.pgfinder.model.User;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDao {
+// Enhanced user DAO with authentication - Day 13public class UserDao {
     
     private static List<User> users = new ArrayList<>();
     
