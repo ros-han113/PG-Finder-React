@@ -7,7 +7,8 @@ import { Input } from '../../components/ui/Input';
 import { Select } from '../../components/ui/Select';
 import { reviews } from '../../data/mockData';
 
-// Enhanced reviews with filtering and sorting - Day 8export function ReviewsPage() {
+// Enhanced reviews with filtering and sorting - Day 8
+export function ReviewsPage() {
   const [selectedRating, setSelectedRating] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   
@@ -203,8 +204,3 @@ import { reviews } from '../../data/mockData';
     </div>
   );
 }
-
-
-
-
-
