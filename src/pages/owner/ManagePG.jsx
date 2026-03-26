@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Plus, Edit, Trash2, MapPin, Bed, Users, DollarSign, Star } from 'lucide-react';
 
-// Enhanced PG details management with validation - Day 3
+// Enhanced PG management with bulk operations - Day 14
 export function ManagePG() {
   const [properties, setProperties] = useState([
     {
